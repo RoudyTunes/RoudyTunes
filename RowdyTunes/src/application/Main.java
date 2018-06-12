@@ -13,7 +13,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			Parent root = FXMLLoader.load(getClass().getResource("view/PlayView.fxml"));
-			primaryStage.setScene(new Scene(root, 500, 500));
+			primaryStage.setScene(new Scene(root, 543, 353));
 			primaryStage.setTitle("RowdyTunes");
 			primaryStage.show();
 			
